@@ -18,6 +18,8 @@ Hello_World
  function saySomething() {
  document.writeln("hello!");
  }
+
+  // циклы for
  for (let i = 0; i < 100; i++) {
  document.writeln(i);
  if (i == 45) {
@@ -37,6 +39,29 @@ for (let i = 1; i <= floors; i++) {
    for (let i = "a"; i != "aaaaaaaa"; i += "a") {
  document.writeln("hmm. ");
 }
+   
+let i = 0;
+let yay = true;
+for (; yay;) {
+ if (i == 10) {
+ yay = false;
+ } else {
+ i++;
+ document.writeln("weird");
+ }
+}
+
+   
+
+
+//ТАЙМЕРЫ
+/*Задержка с помощью setTimeout*/
+
+function showAlert() {
+ alert("moo!");
+}
+let timeoutID = setTimeout(showAlert, 5000)
+
 
        
       
