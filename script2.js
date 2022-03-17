@@ -20,12 +20,13 @@ isItSafe();*/
 
 
    //Functions within functions
+   /*let something = youSayGoodBye();
    function youSayGoodBye() {
     alert("Good Bye!");
     function andISayHello() {
     alert("Hello!");
     }
     return andISayHello;
-   } 
+   } */
 
 
