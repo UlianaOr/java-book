@@ -37,7 +37,7 @@ isItSafe();*/
 рабочая среда обеспечивает, чтобы любые нужные переменные из 
 внешней функции были доступны внутренней функции, даже если 
 внешняя функция перестает действовать*/
-   function stopWatch() {
+  /* function stopWatch() {
     var startTime = Date.now();
     function getDelay() {
     var elapsedTime = Date.now() - startTime;
@@ -51,6 +51,12 @@ isItSafe();*/
     let foo = Math.random() * 10000;
     }
     // Вызвать возвращаемую функцию.
-    timer();
+    timer();*/
+
+    let myButton = document.querySelector("#myButton");
+ myButton.addEventListener("click", doSomething, false);
+ function doSomething(e) {
+ alert("Is this working?");
+ }
 
 
