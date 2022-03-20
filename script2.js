@@ -66,14 +66,28 @@ isItSafe();*/
     let resultIndex = groceries.indexOf("Eggs",0);
     console.log(resultIndex); */
 
-    let good = ["Mario", "Luigi", "Kirby", "Yoshi"];
-    let bad = ["Bowser", "Koopa Troopa", "Goomba"];
+    //let good = ["Mario", "Luigi", "Kirby", "Yoshi"];
+    //let bad = ["Bowser", "Koopa Troopa", "Goomba"];
     //Чтобы совместить их, используйте метод concat для массива, который 
     //вы хотите расширить, и передайте в него второй массив в виде аргумента. 
      //В итоге будет возвращен новый массив, содержащий и good, и bad:
 
-    let goodAndBad = good.concat(bad);
-    console.log(goodAndBad);
+    /*let goodAndBad = good.concat(bad);
+    console.log(goodAndBad);*/
+
+
+
+
+    // map (отображение), 
+    //reduce (сокращение) и filter (фильтрация)
+
+    let names = ["marge", "homer", "bart", "lisa", "maggie"];
+    function capitalizeItUp(item) {
+     let firstLetter = item.charAt(0).toUpperCase();
+     return firstLetter + item.slice(1);
+    }
+    let newNames = names.map(capitalizeItUp);
+    console.log(newNames);
 
 
 
