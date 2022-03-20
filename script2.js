@@ -60,3 +60,10 @@ isItSafe();*/
  }*/
 
 
+    //array
+
+    let groceries =["Milk", "Eggs", "Frosted Flakes", "Salami", "Juice"];
+    let resultIndex = groceries.indexOf("Eggs",0);
+    console.log(resultIndex); // 1
+
+
