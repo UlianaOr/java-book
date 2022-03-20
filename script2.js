@@ -62,8 +62,18 @@ isItSafe();*/
 
     //array
 
-    let groceries =["Milk", "Eggs", "Frosted Flakes", "Salami", "Juice"];
+    /*let groceries =["Milk", "Eggs", "Frosted Flakes", "Salami", "Juice"];
     let resultIndex = groceries.indexOf("Eggs",0);
-    console.log(resultIndex); // 1
+    console.log(resultIndex); */
+
+    let good = ["Mario", "Luigi", "Kirby", "Yoshi"];
+    let bad = ["Bowser", "Koopa Troopa", "Goomba"];
+    //Чтобы совместить их, используйте метод concat для массива, который 
+    //вы хотите расширить, и передайте в него второй массив в виде аргумента. 
+     //В итоге будет возвращен новый массив, содержащий и good, и bad:
+
+    let goodAndBad = good.concat(bad);
+    console.log(goodAndBad);
+
 
 
