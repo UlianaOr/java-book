@@ -81,13 +81,23 @@ isItSafe();*/
     // map (отображение), 
     //reduce (сокращение) и filter (фильтрация)
 
-    let names = ["marge", "homer", "bart", "lisa", "maggie"];
+    /*let names = ["marge", "homer", "bart", "lisa", "maggie"];
     function capitalizeItUp(item) {
      let firstLetter = item.charAt(0).toUpperCase();
      return firstLetter + item.slice(1);
     }
     let newNames = names.map(capitalizeItUp);
-    console.log(newNames);
+    console.log(newNames);*/
+
+
+
+    //filter
+
+      let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
+   let evenNumbers = numbers.filter(function (item) {
+   return (item % 2 == 0);
+    });
+     console.log(evenNumbers);
 
 
 
