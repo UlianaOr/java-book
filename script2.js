@@ -110,7 +110,7 @@ isItSafe();*/
        }, 0);
        console.log(total);*/
 
-       let words = ["Where", "do", "you", "want", "to", "go", "today?"];
+      /* let words = ["Where", "do", "you", "want", "to", "go", "today?"];
 let phrase = words.reduce(function (total, current, index) {
  if (index == 0) {
  return current;
@@ -118,7 +118,22 @@ let phrase = words.reduce(function (total, current, index) {
  return total + " " + current;
  }
 }, "");
-console.log(phrase);
+console.log(phrase);*/
+
+
+       
+
+
+    //strings in programming
+
+    let text = "this is some text";
+    let moreText = 'I am in single quotes!';
+    console.log("this is some more text");
+
+    let initial = "hello";
+    console.log(initial + " world!");
+    console.log("I can also " + "do this!");
+
 
 
 
