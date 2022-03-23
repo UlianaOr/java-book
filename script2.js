@@ -214,4 +214,16 @@ console.log(result);*/
 
 
 
+          // lastIndexOf
+          // он возвращает индекс последнего включения искомого элемента 
+
+          /*let question = "How much wood could a woodchuck chuck if a woodchuck could chuck wood?";
+          console.log(question.lastIndexOf("wood")); // 65  */
+
+
+
+
+
+
+
 
