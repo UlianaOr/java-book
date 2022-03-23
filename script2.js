@@ -222,6 +222,14 @@ console.log(result);*/
 
 
 
+          //match
+          /*let phrase = "There are 3 little pigs.";
+          let regexp = /[0-9]/;
+          let numbers = phrase.match(regexp);
+          console.log(numbers[0]); // 3 */
+
+
+
 
 
 
