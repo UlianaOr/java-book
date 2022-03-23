@@ -192,9 +192,25 @@ console.log(result);*/
          let splitWords = days.split(",");
          console.log(splitWords[6]); // Sunday*/
 
-         let inspirationalQuote = "That which you can concatenate, you can also split apart.";
+         /*let inspirationalQuote = "That which you can concatenate, you can also split apart.";
          let splitWords = inspirationalQuote.split(" ");
-         console.log(splitWords.length); // 10
+         console.log(splitWords.length); // 10 */
+
+
+
+
+         //indexOf
+         //Этот метод получает искомый нами знак(и) в качестве аргумента. Если 
+         //он его (их) находит, то возвращает позицию индекса строки, где происходит первое включение. Если совпадений не обнаруживается, indexOf
+        // возвращает -1. 
+
+        /*let question = "I wonder what the pigs did to make these birds so angry?";
+         console.log(question.indexOf("pigs")); // 18
+
+         let question = "I wonder what the pigs did to make these birds soangry?";
+          console.log(question.indexOf("z")); // -1  */
+
+
 
 
 
