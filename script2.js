@@ -126,13 +126,75 @@ console.log(phrase);*/
 
     //strings in programming
 
-    let text = "this is some text";
+    /*let text = "this is some text";
     let moreText = 'I am in single quotes!';
     console.log("this is some more text");
 
     let initial = "hello";
     console.log(initial + " world!");
-    console.log("I can also " + "do this!");
+    console.log("I can also " + "do this!");*/
+
+
+    /*let vowels = "aeiou";
+    for (let i = 0; i < vowels.length; i++) {
+    console.log(vowels[i]);
+    };*/
+
+
+    /*let textA = "Please";
+    let textB = new String("stop!");
+    let combined = textA + " make it " + textB;
+    console.log(combined);
+
+
+    let foo = "I really";
+let blah = "why anybody would";
+let blarg = "do this";
+let result = foo.concat(" don't know", " ", blah, " ", blarg);
+console.log(result);*/
+
+
+
+     //SLICE// позволяет нам определять начальную и конечную позиции 
+    // интересующей части строки, которую мы хотим извлечь:
+
+     
+    /* let theBigString = "Pulp Fiction is an awesome movie!";
+     console.log(theBigString.slice(5, 12));*/
+
+     /*let theBigString = "Pulp Fiction is an awesome movie!";
+      console.log(theBigString.slice(0, -6));*/
+
+      /*let theBigString = "Pulp Fiction is an awesome movie!";
+      console.log(theBigString.slice(-14, -7));*/
+
+
+
+      //SUBSTR //для разделения строк — метод.
+
+      /*let theBigString = "Pulp Fiction is an awesome movie!";
+       console.log(theBigString.substr(0, 4)); // Pulp //Первый из них является числом, определяющим стартовую позицию, 
+//а второй представляет число, задающее длину итоговой подстроки.
+
+       let theBigString = "Pulp Fiction is an awesome movie!";
+         console.log(theBigString.substr(5, 7)); // Fiction*/
+
+        // Если мы не определим длину, возвращаемая подстрока будет содержать 
+        //знаки от стартовой позиции и до конца:
+        /*let theBigString = "Pulp Fiction is an awesome movie!";
+         console.log(theBigString.substr(5)); // Fiction is an awesome movie!*/
+
+
+
+         //SPLIT - Разделение строки 
+
+         /*let days = "Monday,Tuesday,Wednesday,Thursday,Friday, Saturday,Sunday";
+         let splitWords = days.split(",");
+         console.log(splitWords[6]); // Sunday*/
+
+         let inspirationalQuote = "That which you can concatenate, you can also split apart.";
+         let splitWords = inspirationalQuote.split(" ");
+         console.log(splitWords.length); // 10
 
 
 
