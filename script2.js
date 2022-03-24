@@ -238,13 +238,34 @@ console.log(result);*/
 
 
           //typeof - ПРОВЕРКА ТИПОВ ДАННЫХ
-          
-          let game = "Dragon Age: Origins";
+
+          /*let game = "Dragon Age: Origins";
           console.log("Length is: " + game.length); 
           let gameObject = new String("Dragon Age:Origins");
           console.log(typeof game); // строка
           console.log(typeof game.length); // число
-          console.log(typeof gameObject); // объект
+          console.log(typeof gameObject); // объект*/
+
+
+
+          //parseInt: ПРЕОБРАЗОВАНИЕ СТРОКИ В ЧИСЛА
+
+          /*let hexValue = parseInt('FFFFFF', 16);
+          let octalValue = parseInt('011', 8);*/
+
+
+
+          //Infinity // NaN  : 
+
+          let myLoveForYou = Infinity * 2;
+
+          let nope = 1920 / "blah";
+
+
+
+
+
+
 
 
            
