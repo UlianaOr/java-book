@@ -229,6 +229,27 @@ console.log(result);*/
           console.log(numbers[0]); // 3 */
 
 
+          // toUpperCase   toLowerCase
+         /* let phrase = "My name is Bond. James Bond.";
+          console.log(phrase.toUpperCase()); // MY NAME IS BOND. JAMES BOND.
+          console.log(phrase.toLowerCase()); // my name is bond. james bond.*/
+
+
+
+
+          //typeof - ПРОВЕРКА ТИПОВ ДАННЫХ
+          
+          let game = "Dragon Age: Origins";
+          console.log("Length is: " + game.length); 
+          let gameObject = new String("Dragon Age:Origins");
+          console.log(typeof game); // строка
+          console.log(typeof game.length); // число
+          console.log(typeof gameObject); // объект
+
+
+           
+
+
 
 
 
