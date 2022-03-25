@@ -257,9 +257,19 @@ console.log(result);*/
 
           //Infinity // NaN  : 
 
-          let myLoveForYou = Infinity * 2;
+         /* let myLoveForYou = Infinity * 2;
 
-          let nope = 1920 / "blah";
+          let nope = 1920 / "blah";*/
+
+
+
+          // MATH
+          //функция, возвращающей длину окружности по заданному радиусу:
+          function getCircumference(radius) {
+            return 2 * Math.PI * radius;
+           }
+           console.log(getCircumference(2))
+
 
 
 
