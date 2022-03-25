@@ -265,10 +265,38 @@ console.log(result);*/
 
           // MATH
           //функция, возвращающей длину окружности по заданному радиусу:
-          function getCircumference(radius) {
+         /* function getCircumference(radius) {
             return 2 * Math.PI * radius;
            }
            console.log(getCircumference(2))
+
+           /*let randomNumber = Math.random() * 100;
+           //При каждом вызове этой функции вы увидите случайное число, возвращаемое для Math.random()*/
+
+
+
+           //МЕТОДЫ ПОЛУЧЕНИЯ И ИЗМЕНЕНИЯ ДАННЫХ
+
+           /*let foo = {
+            a: "Hello",
+            b: "Monday"
+           };
+           console.log(foo.a); //Hello*/
+
+
+           let zorb = {
+            message: "Blah",  //стандартное свойство данных
+            get greeting() {   // разделено на две функции  get u set
+            return this.message;
+            },
+            set greeting(value) {
+            this.message = value;
+            }
+           };
+           zorb.greeting = "Hola!";
+           console.log(zorb.greeting);
+
+
 
 
 
